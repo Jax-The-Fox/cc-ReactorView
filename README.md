@@ -1,6 +1,8 @@
 # cc-ReactorView
 ReactorView is a script for ComputerCraft designed to control and display information from a Draconic Evolution reactor.
 
+It can be downloaded directly to a computer with the command: pastebin get WvYZ091b startup
+
 BEFORE YOU START:
 There are a few values that need to be set in the script before you can run it, otherwise it will return an error:
 
