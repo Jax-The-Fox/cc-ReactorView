@@ -3,7 +3,7 @@ ReactorView is a script for ComputerCraft designed to control and display inform
 
 It can be downloaded directly to a computer with the command: 
 
-pastebin get y0uyErA1 startup
+pastebin get JLgbeZrX startup
 
 
 
