@@ -2,13 +2,15 @@
 ReactorView is a script for ComputerCraft designed to control and display information from a Draconic Evolution reactor.
 
 BEFORE YOU START:
-There are a few values that need to be set in the program before you can run the program, otherwise it will error:
+There are a few values that need to be set in the script before you can run it, otherwise it will return an error:
 
 reactorIn = peripheral.wrap("") the text in the quotes needs to be set to the exact name of the modem connected to the flux gate on the energy injector
+
 reactorOut = peripheral.wrap("") the text in the quotes needs to be set to the exact name of the modem connected to the flux gate on the output of the reactor
+
 m = peripheral.wrap("") the text in the quotes needs to be set to the exact name of th emodem connected to the 3x3 monitor setup
 
-playerWhitelist = {""} has to have all the authorized players added to it that are allowed to use the chat commands. additional players can be added with a comma, folled by another set of quotes. The player name needs to be exact, and is case-sensitive. Chat commands can be found below, and are also read to the user if improper syntax is used.
+playerWhitelist = {""} has to have all the authorized players added to it that are allowed to use the chat commands. Additional players can be added with a comma, folled by another set of quotes. The player name needs to be exact, and is case-sensitive. Chat commands can be found below, and are also read to the user if improper syntax is used.
 
 Understanding The Interface
 
