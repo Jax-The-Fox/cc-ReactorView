@@ -17,10 +17,15 @@ Understanding The Interface
 I will be using the text in the image above as an example
 
 'Core-1' is the computer label. That is the name that is shown in the top left, and is what you would call in the '\Core-1' command to query one reactor
+
 'running' is the state of the reactor. This can have several other states, like 'Cooling Down' or 'Inactive'. They are all the same as what is shown in the reactor GUI
+
 'AUTO' is the state of the program. It can be either 'AUTO' or 'MANL', and will mean the reactor is being controlled or not.
+
 'Info:' can display messages to the user about the state of the reactor. It can show messages like 'Temperature High.' or 'Saturation Critical!' and gives insight into any issues the reactor may be facing
+
 'Gain:' is the net RF/t the reactor is making after factoring in the amount taken for the shielding. The '0/s' after that is the amount the RF/t is changing per second.
+
 'T-' is an estimation of the amount of time the reactor will last on the current fuel. This number can change based on current fuel usage and saturation.
 The four graphs with values show the current Saturation, Temperature, Field Strength and Fuel remaining, respectively, and can change color if they get too high or low.
 
